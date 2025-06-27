@@ -36,8 +36,6 @@ Serial.printf( "A: REF=%lu TSTOP=%lu | B: REF=%lu TSTOP=%lu\n", refA, stopA, ref
 
 <h2>Example Sketch</h2> <p>See <code>Example.ino</code> in this repo for a full demonstration on initializing FSPI, configuring the chip, and printing timing results.</p>
 
-<h2>Contributing</h2> <ol> <li>Fork the repository</li> <li>Create a feature branch</li> <li>Submit a pull request with clear description and tested code</li> </ol>
-
 <h2>References</h2>
 
 <ol>
@@ -56,5 +54,7 @@ Serial.printf( "A: REF=%lu TSTOP=%lu | B: REF=%lu TSTOP=%lu\n", refA, stopA, ref
     </a>
   </li>
 </ol>
+
+<h2>Contributing</h2> <ol> <li>Fork the repository</li> <li>Create a feature branch</li> <li>Submit a pull request with clear description and tested code</li> </ol>
 
 <h2>License</h2> <p>MIT © Huzefa T., 2025</p>
