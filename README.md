@@ -1,4 +1,4 @@
-<h1>AS6501 SPI Interface Library for Arduino</h1> <p> A compact, easy-to-use C++ class for communicating with the AS6501 Time-to-Digital Converter over SPI on Arduino-compatible boards. Handles chip-select toggling, SPI transactions up to 50 MHz, configuration register management, and single/dual-channel timing reads. </p>
+<h1>AS6501 SPI Interface Library for ESP32</h1> <p> A compact, easy-to-use C++ class for communicating with the AS6501 Time-to-Digital Converter over SPI on Arduino-compatible boards. Handles chip-select toggling, SPI transactions up to 50 MHz, configuration register management, and single/dual-channel timing reads. </p>
 
 <h2>Features</h2> <ul> <li>Power-on reset and measurement initialization sequences</li> <li>Read/write individual config registers or bulk transfer all 17 bytes</li> <li>Automatic verification of configuration with retry loop on mismatch</li> <li>Single-channel (STOPA only) and dual-channel (STOPA + STOPB) modes</li> <li>24-bit result reads for reference (REFID) and stop (TSTOP) timestamps</li> <li>Works with any <code>SPIClass</code> instance (VSPI, HSPI, FSPI on ESP32, etc.)</li> <li>Configurable SPI settings: 50 MHz clock, MSB-first, MODE0</li> </ul>
 
@@ -38,4 +38,4 @@ Serial.printf( "A: REF=%lu TSTOP=%lu | B: REF=%lu TSTOP=%lu\n", refA, stopA, ref
 
 <h2>Contributing</h2> <ol> <li>Fork the repository</li> <li>Create a feature branch</li> <li>Submit a pull request with clear description and tested code</li> </ol>
 
-<h2>License</h2> <p>MIT © Your Name or Organization, 2025</p>
+<h2>License</h2> <p>MIT © Huzefa T., 2025</p>
