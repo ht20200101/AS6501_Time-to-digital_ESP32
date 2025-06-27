@@ -38,4 +38,23 @@ Serial.printf( "A: REF=%lu TSTOP=%lu | B: REF=%lu TSTOP=%lu\n", refA, stopA, ref
 
 <h2>Contributing</h2> <ol> <li>Fork the repository</li> <li>Create a feature branch</li> <li>Submit a pull request with clear description and tested code</li> </ol>
 
+<h2>References</h2>
+
+<ol>
+  <li>
+    <a href="https://www.sciosense.com/as6501-time-to-digital-converter/" 
+       target="_blank" 
+       rel="noopener noreferrer">
+      AS6501 Time-to-Digital Converter
+    </a>
+  </li>
+  <li>
+    <a href="https://www.sciosense.com/wp-content/uploads/2023/12/AS6501-Datasheet.pdf?_gl=1*1faqjvc*_up*MQ..*_ga*NzY3NzAwMzY5LjE3NTEwNTEzNzc.*_ga_3C0E2J9K40*czE3NTEwNTEzNzYkbzEkZzAkdDE3NTEwNTEzNzYkajYwJGwwJGgw" 
+       target="_blank" 
+       rel="noopener noreferrer">
+      AS6501 Datasheet (PDF)
+    </a>
+  </li>
+</ol>
+
 <h2>License</h2> <p>MIT © Huzefa T., 2025</p>
