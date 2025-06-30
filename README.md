@@ -57,4 +57,4 @@ Serial.printf( "A: REF=%lu TSTOP=%lu | B: REF=%lu TSTOP=%lu\n", refA, stopA, ref
 
 <h2>Contributing</h2> <ol> <li>Fork the repository</li> <li>Create a feature branch</li> <li>Submit a pull request with clear description and tested code</li> </ol>
 
-<h2>License</h2> <p>MIT © Huzefa T., 2025</p>
+<h2>License</h2> <p>This project is released under the MIT License. See the LICENSE file for full details.</p>
